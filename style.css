@@ -1,3 +1,4 @@
+@import url('/styles/component.css');
 :root {
   --primary-color: white;
   --secondary-color: rgb(15, 1, 1);
