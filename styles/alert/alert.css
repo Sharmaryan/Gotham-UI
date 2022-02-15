@@ -1,0 +1,51 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: white;
+  --secondary-color: rgb(15, 1, 1);
+  --default: rgb(53, 52, 52);
+}
+
+.alert {
+  padding: 1rem;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+.alert-primary {
+  color: rgb(11, 230, 230);
+  background-color: var(--default);
+}
+.alert-secondary {
+  color: rgb(165, 103, 11);
+  background-color: rgb(245, 245, 185);
+}
+.alert-success {
+  color: rgb(138, 230, 126);
+  background-color: rgb(63, 146, 63);
+}
+.alert-danger {
+  color: rgb(243, 212, 212);
+  background-color: rgb(245, 115, 115);
+}
+.alert-primary-outline{
+    outline: 3px solid rgb(11, 230, 230);
+    color: rgb(11, 230, 230);
+}
+.alert-secondary-outline{
+outline: 3px solid  rgb(165, 103, 11);
+    color: rgb(165, 103, 11);
+}
+.alert-success-outline{
+    outline: 3px solid rgb(63, 146, 63);
+    color: rgb(63, 146, 63);
+}
+.alert-danger-outline{
+outline: 3px solid rgb(245, 115, 115);
+    color: rgb(245, 115, 115);
+}
+
