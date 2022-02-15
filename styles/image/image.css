@@ -1,0 +1,29 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: white;
+  --secondary-color: rgb(15, 1, 1);
+  --default: rgb(53, 52, 52);
+}
+.image-container{
+    padding: 1rem;
+}
+img {
+  width: 10rem;
+  height: 10rem;
+}
+.img-square {
+  border-radius: 10%;
+}
+.img-round {
+  border-radius: 50%;
+}
+.img-responsive {
+  width: 80%;
+  height: auto;
+}
+
