@@ -22,7 +22,7 @@
 }
 
 .card-title {
-  margin: .4rem 0;
+  margin: 8px 0;
   font-size: 1.4rem;
   font-weight: bold;
 }
@@ -30,13 +30,13 @@
 .card-btn {
   text-transform: uppercase;
   font-weight: bold;
-  padding: 0.4rem;
-  margin: .1rem;
+  padding: 9px;
+  margin: 2px;
   cursor: pointer;
 }
 .card-logo {
-  height: 150px;
-  width: 200px;
+  height: 8rem;
+  width: 10rem;
   
 }
 
