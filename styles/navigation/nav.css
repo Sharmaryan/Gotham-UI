@@ -1,0 +1,42 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: white;
+  --secondary-color: rgb(15, 1, 1);
+  --default: rgb(53, 52, 52);
+}
+.nav-container {
+  padding: 1rem;
+}
+.nav-menu {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-menu-logo {
+  display: inline;
+  text-transform: none;
+  font-weight: lighter;
+  margin-left: 1.4rem;
+}
+.menu {
+  margin-right: 1.4rem;
+  text-transform: uppercase;
+}
+
+.menu-items {
+  display: inline;
+  padding: 9px;
+  cursor: pointer;
+}
+.menu-items:hover {
+  color: yellow;
+}
