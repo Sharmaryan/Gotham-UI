@@ -15,7 +15,7 @@
 }
 
 .card {
-  color: white;
+  color: var(--primary-color);
   width: 16rem;
   padding: 1rem;
   background-color: var(--secondary-color);
@@ -50,7 +50,7 @@
 }
 
 .card-vertical{
-  background-color: white;
+  background-color: var(--primary-color);
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
   width: 17rem;
