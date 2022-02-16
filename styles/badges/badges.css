@@ -52,10 +52,11 @@ font-size: 3rem;
   position: absolute;
   background-color: var(--status-online);
   border-radius: 50%;
+  padding: .3rem;
 }
 .icon-insta{
-  right: 6.7rem;
+  right: 5.8rem;
 }
 .icon-whatsapp{
-  right: 7.7rem;
+  right: 6.7rem;
 }
