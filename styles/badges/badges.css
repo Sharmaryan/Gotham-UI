@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: white;
+  --secondary-color: rgb(15, 1, 1);
+  --default: rgb(53, 52, 52);
+  --status-online: rgb(21, 221, 21);
+  --status-offline: rgb(164, 21, 221);
+  --status-dnd: rgb(240, 60, 15);
+}
+.badge-container{
+  display: flex;
+  padding: 1rem;
+}
+.badge {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+}
+.badges {
+  width: 10rem;
+}
+.badges-logo, .icon-logo {
+  position: relative;
+}
+.badges-top-left {
+  position: absolute;
+  top: 1.2rem;
+  right: 7rem;
+}
+.badges-status {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+}
+.badges-online {
+  background-color: var(--status-online);
+}
+.badges-offline {
+  background-color: var(--status-offline);
+}
+.badges-dnd {
+  background-color: var(--status-dnd);
+}
+.icon-size{
+font-size: 3rem;
+}
+.icon-msg{
+  position: absolute;
+  background-color: var(--status-online);
+  border-radius: 50%;
+}
+.icon-insta{
+  right: 6.7rem;
+}
+.icon-whatsapp{
+  right: 7.7rem;
+}
