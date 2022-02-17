@@ -1,4 +1,4 @@
-@import url('/styles/component.css');
+@import url("/styles/component.css");
 :root {
   --primary-color: white;
   --secondary-color: rgb(15, 1, 1);
@@ -27,7 +27,12 @@
   width: 60vw;
   cursor: pointer;
 }
-
+.text-decorations {
+  text-decoration: none;
+}
+.text-white {
+  color: var(--primary-color);
+}
 #main-section {
   flex-direction: column;
   height: 80vh;
