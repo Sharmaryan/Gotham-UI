@@ -9,6 +9,7 @@
   --primary-color: white;
   --secondary-color: rgb(15, 1, 1);
   --default: rgb(53, 52, 52);
+  --hover-color: rgba(187, 184, 184, 0.849);
 }
 .nav-container {
   padding: 1rem;
