@@ -1,17 +1,25 @@
 #sidebar {
+  min-width: 15rem;
+  border-radius: 3%;
+  background: var(--default);
+  border: 3px solid var(--secondary-color);
+  height: 80vh;
   margin: 1rem;
   color: var(--primary-color);
-  min-width: 15rem;
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-   background: var(--default);
-  border: 3px solid var(--secondary-color);
-  border-radius: 3%;
+  text-align: center;
 }
 
 .sidebar-items {
   font-weight: bold;
+  margin: 1rem 0;
+  list-style: none;
+  text-decoration: none;
+  
+}
+.remove-text-decoration{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.add-hover:hover{
+  color: var(--hover-color);
 }
