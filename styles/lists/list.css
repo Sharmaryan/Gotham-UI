@@ -1,0 +1,35 @@
+:root {
+  --primary-color: white;
+  --secondary-color: rgb(15, 1, 1);
+  --default: rgb(53, 52, 52);
+}
+.list-container{
+    display: flex;
+    padding: 1rem;
+}
+
+.list-style{
+    margin:  .5rem 1rem;
+    width: 4rem;
+}
+.list-type-bullet{
+    list-style: circle;
+}
+.list-type-disc{
+    list-style: disc;
+}
+.list-type-disc{
+    list-style: square;
+}
+.list-type-number{
+    list-style-type: decimal;
+}
+.list-type-alphabet{
+    list-style-type: upper-alpha;
+}
+.list-type-roman{
+    list-style-type: upper-roman;
+}
+.list-type-no-bullets{
+    list-style: none;
+}
