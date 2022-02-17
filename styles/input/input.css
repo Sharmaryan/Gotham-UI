@@ -1,0 +1,28 @@
+:root {
+  --primary-color: white;
+  --secondary-color: rgb(15, 1, 1);
+  --default: rgb(53, 52, 52);
+}
+
+.input-container {
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.input-fields {
+  margin: 0.5rem 0;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input-content {
+  border: 2px solid var(--secondary-color);
+}
+
+.input-radio, .input-checkbox{
+  display: inline;
+  margin-bottom: 1rem;
+}
