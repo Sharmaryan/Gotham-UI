@@ -16,11 +16,10 @@
 .inner-container-desc {
   padding: 1rem;
 }
-/* .inner-container-code{
-padding: 1rem;
-} */
+
 .code-snippet{
    width: 100%; 
-   max-height: 300px;
+   max-height: 30rem;
+   border: none;
   
 }
