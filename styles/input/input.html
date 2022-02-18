@@ -37,89 +37,94 @@
       </aside>
 
       <div class="inner-container">
-        <h2 class="inner-container-title">Inputs</h2>
-        <p class="inner-container-desc">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error ad
-          harum voluptatem corrupti quis minima delectus tenetur facilis
-          reprehenderit rerum?
-        </p>
-        <h3 class="inner-container-types">simple input</h3>
-        <div class="input-container">
-          <div class="input-fields">
-            <label class="input-label">Email:</label>
-            <input type="text" class="input-content" />
-          </div>
-          <div class="input-fields">
-            <label class="input-label">Password:</label>
-            <input type="password" class="input-content" />
-          </div>
+      <h2 class="inner-container-title">Inputs</h2>
+      <p class="inner-container-desc">
+        inputs are used to enter data, gotham UI provide many types of inputs
+      </p>
+      <h3 class="inner-container-types">textbox / simple input</h3>
+      <p class="inner-container-desc">
+        this is the simple type of input which can be seen in multiple websites
+      </p>
+      <div class="input-container">
+        <div class="input-fields">
+          <label class="input-label">Email:</label>
+          <input type="text" class="input-content" placeholder="enter your email" />
         </div>
-
-        <div class="inner-container-code">
-          <iframe
-            src="https://www.thiscodeworks.com/embed/620df28e1285b600155ec1fc"
-            class="code-snippet"
-          ></iframe>
-        </div>
-
-        <h3 class="inner-container-types">radio input</h3>
-
-        <div class="input-container">
-          <div class="input-radio">
-            <label class="input-radio-label" for="radio-a1">
-              <input
-                type="radio"
-                id="radio-a1"
-                class="input-radio-content"
-                checked
-                name="radio"
-              />
-              checked
-            </label>
-          </div>
-          <div class="input-radio">
-            <label class="input-radio-label" for="radio-a2">
-              <input
-                type="radio"
-                id="radio-a2"
-                class="input-radio-content"
-                name="radio"
-              />
-              Unchecked
-            </label>
-          </div>
-        </div>
-
-        <div class="inner-container-code">
-          <iframe
-            src="https://www.thiscodeworks.com/embed/620df2e61285b600155ec1ff"
-            class="code-snippet"
-          ></iframe>
-        </div>
-        <h3 class="inner-container-types">checkbox input</h3>
-
-        <div class="input-container">
-          <div class="input-checkbox">
-            <label for="checkbox-a1">
-              <input name="checkbox" id="checkbox-a1" type="checkbox" checked />
-              Checked
-            </label>
-          </div>
-          <div class="input-checkbox">
-            <label for="checkbox-a2">
-              <input name="checkbox" id="checkbox-a2" type="checkbox" />
-              Unchecked
-            </label>
-          </div>
-        </div>
-
-        <div class="inner-container-code">
-          <iframe
-           src="https://www.thiscodeworks.com/embed/620df3c31285b600155ec203" 
-            class="code-snippet"
-          ></iframe>
+        <div class="input-fields">
+          <label class="input-label">Password:</label>
+          <input type="password" class="input-content" placeholder="enter your password" />
         </div>
       </div>
+
+      <div class="inner-container-code">
+        <iframe src="https://www.thiscodeworks.com/embed/620df28e1285b600155ec1fc" class="code-snippet"></iframe>
+      </div>
+
+      <h3 class="inner-container-types">input with error and validation</h3>
+       <p class="inner-container-desc">
+        this is the simple type of input with error, shown with the help of color red
+      </p>
+      <div class="input-container">
+        <div class="input-fields">
+          <label class="input-label">Password</label>
+          <input type="text" class="input-content" placeholder="password" />
+        </div>
+        <div class="input-fields">
+          <label class="input-label">Confirm Password</label>
+          <input type="password" class="input-content input-error-color" placeholder="confirm password" />
+        </div>
+        <div class="password-error-msg">password is not matching, try again</div>
+      </div>
+
+      <div class="inner-container-code">
+        <iframe src="https://www.thiscodeworks.com/embed/620f775514fadf0015661dda" class="code-snippet"></iframe>
+      </div>
+      <h3 class="inner-container-types">radio input</h3>
+ <p class="inner-container-desc">
+        this is radio input use to make selection and it can be  used to select only one element
+      </p>
+      <div class="input-container">
+        <div class="input-radio">
+          <label class="input-radio-label" for="radio-a1">
+            <input type="radio" id="radio-a1" class="input-radio-content" checked name="radio" />
+            checked
+          </label>
+        </div>
+        <div class="input-radio">
+          <label class="input-radio-label" for="radio-a2">
+            <input type="radio" id="radio-a2" class="input-radio-content" name="radio" />
+            Unchecked
+          </label>
+        </div>
+      </div>
+
+      <div class="inner-container-code">
+        <iframe src="https://www.thiscodeworks.com/embed/620df2e61285b600155ec1ff" class="code-snippet"></iframe>
+      </div>
+      <h3 class="inner-container-types">checkbox input</h3>
+       <p class="inner-container-desc">
+        this is checkbox input use to make selection and it can be  used to select manny elements
+      </p>
+
+      <div class="input-container">
+        <div class="input-checkbox">
+          <label for="checkbox-a1">
+            <input name="checkbox" id="checkbox-a1" type="checkbox" checked />
+            Checked
+          </label>
+        </div>
+        <div class="input-checkbox">
+          <label for="checkbox-a2">
+            <input name="checkbox" id="checkbox-a2" type="checkbox" />
+            Unchecked
+          </label>
+        </div>
+      </div>
+
+      <div class="inner-container-code">
+        <iframe src="https://www.thiscodeworks.com/embed/620df3c31285b600155ec203" class="code-snippet"></iframe>
+      </div>
+    </div>
     </div>
   </body>
 </html>

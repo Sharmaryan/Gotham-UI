@@ -1,35 +1,57 @@
+@import url("../sidebar/sidebar.css");
+@import url("../navbar/navbar.css");
+@import url("../componentContainer/container.css");
+
 :root {
   --primary-color: white;
   --secondary-color: rgb(15, 1, 1);
   --default: rgb(53, 52, 52);
 }
-.list-container{
-    display: flex;
-    padding: 1rem;
+.list-container {
+  display: flex;
+  padding: 1rem;
 }
 
-.list-style{
-    margin:  .5rem 1rem;
-    width: 4rem;
+.list-style {
+  margin: 0.5rem 1rem;
+  width: 4rem;
 }
-.list-type-bullet{
-    list-style: circle;
+
+.list-type-stacked {
+  list-style: none;
+  text-align: center;
 }
-.list-type-disc{
-    list-style: disc;
+.list-type-stacked .list-style {
+  width: 12rem;
+  border: 3px solid var(--secondary-color);
+  padding: 1rem 2rem;
+  background-color: var(--default);
+  border-radius: 1rem;
+  color: var(--primary-color);
 }
-.list-type-disc{
-    list-style: square;
+
+.list-type-bullet {
+  list-style: circle;
 }
-.list-type-number{
-    list-style-type: decimal;
+.list-type-disc {
+  list-style: disc;
 }
-.list-type-alphabet{
-    list-style-type: upper-alpha;
+.list-type-disc {
+  list-style: square;
 }
-.list-type-roman{
-    list-style-type: upper-roman;
+.list-type-number {
+  list-style-type: decimal;
 }
-.list-type-no-bullets{
-    list-style: none;
+.list-type-alphabet {
+  list-style-type: upper-alpha;
+}
+.list-type-roman {
+  list-style-type: upper-roman;
+}
+.list-type-no-bullets {
+  list-style: none;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--default);
+  color: var(--primary-color);
+  padding: 1rem 4rem;
 }

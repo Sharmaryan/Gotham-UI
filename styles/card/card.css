@@ -1,19 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
   --primary-color: white;
   --secondary-color: rgb(15, 1, 1);
   --default: rgb(53, 52, 52);
 }
-
 .card-container{
-    padding: 1rem;
+  margin: 1rem 0;
 }
-
 .card {
   color: var(--primary-color);
   width: 16rem;
@@ -22,58 +14,74 @@
 }
 
 .card-title {
-  margin: 8px 0;
+  margin: 0.4rem 0;
   font-size: 1.4rem;
   font-weight: bold;
 }
-
 .card-btn {
   text-transform: uppercase;
   font-weight: bold;
-  padding: 9px;
-  margin: 2px;
+  padding: 0.4rem;
+  margin: 0.1rem;
   cursor: pointer;
 }
 .card-logo {
-  height: 8rem;
-  width: 10rem;
-  
+  height: 150px;
+  width: 200px;
 }
-
-.card-price{
+.card-price {
   font-weight: bold;
   font-size: 1.2rem;
 }
-
-.card-desc{
+.card-desc {
   margin: 1rem 0;
 }
-
-.card-vertical{
+.card-vertical,
+.card-dismiss,
+.card-text-badge,
+.card-text-overlay {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
   width: 17rem;
 }
-
-.card-btns{
-  display: flex;
+.card-dismiss,
+.card-text-badge,
+.card-text-badge {
+  position: relative;
+}
+.card-dismiss-btn,
+.card-text-over {
+  position: absolute;
+  right: 1rem;
 }
 
-.card-vertical-btn, .card-horizontal-btn{
+.card-btns {
+  display: flex;
+}
+.card-vertical-btn,
+.card-horizontal-btn {
   background: var(--secondary-color);
   color: var(--primary-color);
 }
-
-.card-horizontal{
+.card-horizontal {
   display: flex;
   width: 30rem;
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
 }
-
-.card-horizontal-logo{
-margin: auto 0;
-padding-right: 1rem;
+.card-horizontal-logo {
+  margin: auto 0;
+  padding-right: 1rem;
+}
+.card-text {
+  position: absolute;
+  padding: 1.5rem 2rem;
+  background-color: red;
+  color: var(--primary-color);
+  opacity: 0.9;
+  border-bottom-left-radius: 1rem;
+  right: 0;
+  top: 0;
 }
