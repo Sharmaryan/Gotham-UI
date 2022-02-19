@@ -61,8 +61,7 @@
 .card-btns {
   display: flex;
 }
-.card-vertical-btn,
-.card-horizontal-btn {
+.card-vertical-btn,.card-horizontal-btn {
   background: var(--secondary-color);
   color: var(--primary-color);
 }
