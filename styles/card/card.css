@@ -49,7 +49,7 @@
 }
 .card-dismiss,
 .card-text-badge,
-.card-text-badge {
+ .card-text-overlay {
   position: relative;
 }
 .card-dismiss-btn,
@@ -87,4 +87,12 @@
   border-top-right-radius: 1rem;
   right: 0;
   top: 0;
+}
+
+.card-overlaid-text{
+  position: absolute;
+  font-size: 2rem;
+  top: 3rem;
+  color: rgb(41, 80, 255);
+  font-weight: bold;
 }
