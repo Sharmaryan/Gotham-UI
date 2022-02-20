@@ -9,9 +9,7 @@
   --secondary-color: rgb(15, 1, 1);
   --default: rgb(53, 52, 52);
 }
-.image-container{
-    padding: 1rem;
-}
+
 img {
   width: 10rem;
   height: 10rem;

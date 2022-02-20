@@ -3,9 +3,7 @@
   --secondary-color: rgb(15, 1, 1);
   --default: rgb(53, 52, 52);
 }
-.card-container{
-  margin: 1rem 0;
-}
+
 .card {
   border-radius: 1rem;
   color: var(--primary-color);

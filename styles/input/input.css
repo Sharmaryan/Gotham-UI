@@ -4,10 +4,7 @@
   --default: rgb(53, 52, 52);
   --error: red;
 }
-.input-container {
-  padding: 0 1rem;
-  margin-bottom: 1rem;
-}
+
 .input-fields {
   margin: 0.5rem 0;
 }

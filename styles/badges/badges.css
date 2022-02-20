@@ -13,7 +13,6 @@
 }
 .badge-container{
   display: flex;
-  padding: 1rem;
 }
 .badge {
   height: 7rem;

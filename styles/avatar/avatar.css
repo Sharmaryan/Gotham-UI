@@ -10,9 +10,6 @@
   --default: rgb(53, 52, 52);
 }
 
-.avatar-container{
-  padding: 1rem;
-}
 .avatar-round {
   border-radius: 50%;
 }
