@@ -30,3 +30,7 @@ In order to use this, use the below code and put it in your html's head tag
 - [Rating](https://gothamui.netlify.app/styles/rating/rating.html)
 
 
+## Desktop Version
+
+https://user-images.githubusercontent.com/72251324/154937359-0d8d0483-4515-486f-9812-b34bef8d3da6.mp4
+
