@@ -4,7 +4,11 @@
   --default: rgb(53, 52, 52);
   --error: red;
 }
-
+.input-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .input-fields {
   margin: 0.5rem 0;
 }
@@ -24,5 +28,9 @@
 }
 .password-error-msg{
   color: var(--error);
+}
+.radio-checkbox{
+  flex-direction: row;
+  justify-content: center;
 }
 

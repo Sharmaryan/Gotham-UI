@@ -9,12 +9,18 @@
 }
 
 .inner-container-title {
-  font-weight: lighter;
+  font-weight: bolder;
 }
 .inner-container-types,
 .inner-container-title,
 .inner-container-desc {
+  color: var(--secondary-color);
   padding: 1rem;
+}
+.inner-container-desc{
+border: 3px solid var(--secondary-color);
+margin: 1rem 0;
+width: 40rem; 
 }
 
 .code-snippet{
@@ -22,9 +28,11 @@
    height: 10rem;
    border: none;
    margin-top: 1rem;
+   padding: 1rem;
+   border: 3px solid var(--secondary-color);
 }
 .component-container{
-  background-color: var(--hover-color);
+  background-color: var(--secondary-color);
   padding: 1rem;
   margin-bottom: 1rem;
   width: 40rem;

@@ -1,16 +1,4 @@
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  --primary-color: white;
-  --secondary-color: rgb(15, 1, 1);
-  --default: rgb(53, 52, 52);
-  --hover-color: rgba(187, 184, 184, 0.849);
-}
 .nav-container {
   font-size: 1.1rem;
 }

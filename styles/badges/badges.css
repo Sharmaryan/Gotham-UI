@@ -1,18 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-:root {
-  --primary-color: white;
-  --secondary-color: rgb(15, 1, 1);
-  --default: rgb(53, 52, 52);
-  --status-online: rgb(21, 221, 21);
-  --status-offline: rgb(164, 21, 221);
-  --status-dnd: rgb(240, 60, 15);
-}
+
 .badge-container{
   display: flex;
+  justify-content: center;
 }
 .badge {
   height: 7rem;

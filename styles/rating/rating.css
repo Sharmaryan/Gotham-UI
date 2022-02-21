@@ -1,11 +1,3 @@
-
-:root {
-  --primary-color: white;
-  --secondary-color: rgb(15, 1, 1);
-  --default: rgb(53, 52, 52);
-  --unchecked-rating:rgba(10, 4, 4, 0.267);
-}
-
 .rating-container {
   max-width: 12rem;
   border: 2px solid var(--secondary-color);
@@ -17,5 +9,5 @@
 }
 
 .fa-unchecked {
-  color: var(--unchecked-rating);
+  color: var(--secondary-color);
 }

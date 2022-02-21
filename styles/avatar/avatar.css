@@ -1,15 +1,8 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.avatar-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-:root {
-  --primary-color: white;
-  --secondary-color: rgb(15, 1, 1);
-  --default: rgb(53, 52, 52);
-}
-
 .avatar-round {
   border-radius: 50%;
 }
