@@ -1,11 +1,10 @@
 #sidebar {
-  min-width: 15rem;
+  padding: 1rem;
+  min-width: 17rem;
   border-radius: 3%;
-  background: var(--default);
-  border: 3px solid var(--secondary-color);
-  height: 80vh;
+  background: var(--secondary-color);
+  height: 25rem;
   margin: 1rem;
-  color: var(--primary-color);
   text-align: center;
 }
 
@@ -13,13 +12,11 @@
   font-weight: bold;
   margin: 1rem 0;
   list-style: none;
-  text-decoration: none;
-  
 }
 .remove-text-decoration{
-  text-decoration: none;
   color: var(--primary-color);
+  text-decoration: none;
 }
 .add-hover:hover{
-  color: var(--hover-color);
+  color: var(--black);
 }

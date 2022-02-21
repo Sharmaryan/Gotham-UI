@@ -1,15 +1,7 @@
-@import url("../sidebar/sidebar.css");
-@import url("../navbar/navbar.css");
-@import url("../componentContainer/container.css");
 
-:root {
-  --primary-color: white;
-  --secondary-color: rgb(15, 1, 1);
-  --default: rgb(53, 52, 52);
-}
 .list-container {
   display: flex;
-  padding: 1rem;
+  justify-content: center;
 }
 
 .list-style {

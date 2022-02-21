@@ -1,29 +1,44 @@
 @import url("/styles/component.css");
 :root {
   --primary-color: white;
-  --secondary-color: rgb(15, 1, 1);
+  --secondary-color: royalblue;
+  --black: black;
+  --light-blue: rgb(9, 238, 238);
+  --dark-blue: rgb(220, 220, 235);
+  --light-green: rgb(221, 238, 218);
+  --dark-green: rgb(11, 250, 11);
+  --light-red: rgb(243, 212, 212);
+  --dark-red: rgb(245, 115, 115);
+  --light-yellow: rgb(245, 245, 185);
+  --dark-yellow: rgb(252, 153, 5);
+  --status-online: rgb(21, 221, 21);
+  --status-offline: rgb(164, 21, 221);
+  --status-dnd: rgb(240, 60, 15);
+  --unchecked-rating:rgba(10, 4, 4, 0.267);
+   --btn-default: rgb(124, 129, 50);
+  --btn-primary: rgb(197, 134, 255);
+  --btn-secondary: rgb(240, 139, 6);
+  --btn-success: rgb(13, 230, 110);
+  --btn-link: rgb(13, 228, 228);
 }
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
-#nav-bar {
+#nav-bar, #nav-menu{
   display: flex;
+  text-transform: uppercase;
+}
+#nav-bar {
   justify-content: space-around;
   align-items: center;
   height: 15vh;
   color: var(--primary-color);
-
   background-color: var(--secondary-color);
 }
 #nav-menu {
-  text-transform: uppercase;
-  display: flex;
   justify-content: space-evenly;
-
   width: 60vw;
   cursor: pointer;
 }
@@ -45,7 +60,6 @@
   font-size: 2rem;
   text-align: center;
 }
-
 #main-section-btn {
   margin: 1rem 0;
   padding: 0.5rem 0.9rem;
@@ -56,12 +70,10 @@
   color: var(--primary-color);
   cursor: pointer;
 }
-
 #main-section-btn:hover {
   color: var(--secondary-color);
   background-color: var(--primary-color);
 }
-
 #main-section-github {
   cursor: pointer;
   padding: 0.5rem 0.9rem;
@@ -70,12 +82,10 @@
   font-weight: bold;
   font-size: 1rem;
 }
-
 #main-section-github:hover {
   color: var(--primary-color);
   background-color: var(--secondary-color);
 }
-
 #footer-icons {
   background-color: var(--secondary-color);
   height: 15vh;
@@ -83,7 +93,6 @@
   justify-content: center;
   align-items: center;
 }
-
 footer i {
   color: var(--primary-color);
   font-size: 1.4rem;

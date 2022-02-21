@@ -1,20 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.btn-container{
+  display: flex;
+  justify-content: center;
 }
-
-:root {
-  --primary-color: white;
-  --secondary-color: rgb(15, 1, 1);
-  --default: rgb(53, 52, 52);
-  --btn-default: rgb(124, 129, 50);
-  --btn-primary: rgb(197, 134, 255);
-  --btn-secondary: rgb(240, 139, 6);
-  --btn-success: rgb(13, 230, 110);
-  --btn-link: rgb(13, 228, 228);
-}
-
 .btn {
   padding: 0.5rem 1rem;
   text-transform: uppercase;
@@ -23,10 +10,6 @@
   cursor: pointer;
   border: none;
   background-color: var(--primary-color);
-}
-
-.btn-container {
-  padding: 1rem;
 }
 
 .btn-default {
