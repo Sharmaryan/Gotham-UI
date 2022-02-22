@@ -34,3 +34,13 @@ In order to use this, use the below code and put it in your html's head tag
 
 https://user-images.githubusercontent.com/72251324/154937359-0d8d0483-4515-486f-9812-b34bef8d3da6.mp4
 
+
+
+## 🔗 Connect with me
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aryan-sharma-704848168/)
+
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/aryan_developer)
+
+
+
