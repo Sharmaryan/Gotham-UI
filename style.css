@@ -26,22 +26,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-#nav-bar, #nav-menu{
-  display: flex;
-  text-transform: uppercase;
-}
-#nav-bar {
-  justify-content: space-around;
-  align-items: center;
-  height: 15vh;
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
-}
-#nav-menu {
-  justify-content: space-evenly;
-  width: 60vw;
-  cursor: pointer;
-}
+
 .text-decorations {
   text-decoration: none;
 }
