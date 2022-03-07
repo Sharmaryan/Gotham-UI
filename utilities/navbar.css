@@ -7,6 +7,7 @@
 }
 #nav-brand{
   margin-left: 1rem;
+  text-transform: uppercase;
 }
 #nav-menu {
   margin-left: auto;
