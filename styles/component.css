@@ -1,6 +1,6 @@
-@import url("/styles/componentContainer/container.css");
-@import url("/styles/navbar/navbar.css");
-@import url('/styles/sidebar/sidebar.css');
+@import url("/utilities/container.css");
+@import url("/utilities/navbar.css");
+@import url('/utilities/sidebar.css');
 @import url('/styles/avatar/avatar.css');
 @import url('/styles/alert/alert.css');
 @import url('/styles/image/image.css');
