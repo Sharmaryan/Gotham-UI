@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="/utilities/container.css" />
     <link rel="stylesheet" href="/utilities/navbar.css" />
     <link rel="stylesheet" href="/utilities/sidebar.css" />
-    <link rel="stylesheet" href="text.css">
+    <link rel="stylesheet" href="modal.css" />
     <script
       src="https://kit.fontawesome.com/0dbbe70cac.js"
       crossorigin="anonymous"
     ></script>
-    <title>Text | gotham UI</title>
+    <title>Modal | gotham UI</title>
   </head>
   <body>
     <nav id="nav-bar">
@@ -118,81 +118,53 @@
             >
           </li>
           <li id="sidebar-text" class="sidebar-items">
-            <a href="#" class="remove-text-decoration add-hover"
+            <a
+              href="/styles/text/text.html"
+              class="remove-text-decoration add-hover"
               >text utilities</a
+            >
+          </li>
+          <li id="sidebar-text" class="sidebar-items">
+            <a
+              href="#"
+              class="remove-text-decoration add-hover"
+              >modal</a
             >
           </li>
         </ul>
       </aside>
 
       <div class="inner-container">
-        <h2 class="inner-container-title">text utilites</h2>
+        <h2 class="inner-container-title">modal</h2>
 
         <p class="inner-container-desc">
-          gotham UI provides many text utilites
+         Modal is a dialog box/popup window that is displayed on top of the current page
         </p>
-        <h3 class="inner-container-types">headings</h3>
-        <div class="component-container text-container">
-          <h1>h1 Heading</h1>
-          <h2>h2 Heading</h2>
-          <h3>h3 Heading</h3>
-          <h4>h4 Heading</h4>
-          <h5>h5 Heading</h5>
-          <h6>h6 Heading</h6>
-        </div>
+       
+        <div class="component-container modal-container">
+            <div class="modal" id="modal">
+                <p class="modal-close" id="close-modal">x</p>
+                <p class="modal-text" >this is simple modal</p>
+            </div>
+            <button class="modal-btn" id="modal-show">show modal</button>
 
+        </div>
+ <h3 class="inner-container-types">CSS</h3>
         <div class="inner-container-code">
           <iframe
-            src="https://www.thiscodeworks.com/embed/624d40401f7c8d0015f85096"
+            src="https://www.thiscodeworks.com/embed/624d4b981f7c8d0015f850a1"
             class="code-snippet"
           ></iframe>
         </div>
-        <h3 class="inner-container-types">alignments</h3>
-        <div class="component-container ">
-          <p class="text-left"> left aligned text</p>
-          <p class="text-center"> center aligned text</p>
-          <p class="text-right">right aligned text</p>
-        </div>
-
+         <h3 class="inner-container-types">Javascript</h3>
         <div class="inner-container-code">
           <iframe
-           src="https://www.thiscodeworks.com/embed/624d40b51f7c8d0015f85097"
-            class="code-snippet"
-          ></iframe>
-        </div>
-        <h3 class="inner-container-types">different size texts</h3>
-        <div class="component-container text-container">
-         
-            <p class="text-xl"> extra large text</p>
-            <p class="text-l"> large text</p>
-         <p class="text-m">  medium text</p>
-         <p class="text-sm"> small text</p>
-         <p class="text-x-sm"> extra small text</p>
-        </div>
-
-        <div class="inner-container-code">
-          <iframe
-            src="https://www.thiscodeworks.com/embed/624d40f61f7c8d0015f85098"
-            class="code-snippet"
-          ></iframe>
-        </div>
-        <h3 class="inner-container-types">different text styles</h3>
-        <div class="component-container text-container">
-         
-          
-         <p class="text-underline"> text with underline</p>
-         <p class="text-line"> text line through</p>
-         <p class="text-gray"> gray text</p>
-        
-        </div>
-
-        <div class="inner-container-code">
-          <iframe
-           src="https://www.thiscodeworks.com/embed/624d413c1f7c8d0015f85099" 
+           src="https://www.thiscodeworks.com/embed/624d4bee1f7c8d0015f850a3" 
             class="code-snippet"
           ></iframe>
         </div>
       </div>
     </div>
-  </body>
+    <script src="./modal.js"></script>
+</body>
 </html>
