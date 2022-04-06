@@ -1,0 +1,30 @@
+.toast-container {
+  background-color: var(--primary-color);
+}
+.toast {
+  display: none;
+  width: 23rem;
+  background-color: var(--dark-yellow);
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 1rem;
+  left: 2rem;
+}
+.toast-text {
+  display: inline;
+}
+.toast-close {
+  display: inline;
+  margin-left: auto;
+  margin-left: 4rem;
+  cursor: pointer;
+}
+.toast-btn {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+  padding: 1rem 1.2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
