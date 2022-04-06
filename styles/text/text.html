@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="gotham UI list component page" />
+    <meta name="description" content="gotham UI rating component page" />
     <meta name="author" content="aryan sharma" />
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/utilities/container.css" />
     <link rel="stylesheet" href="/utilities/navbar.css" />
     <link rel="stylesheet" href="/utilities/sidebar.css" />
-    <title>Lists | gotham UI</title>
+    <link rel="stylesheet" href="text.css" />
+    <script
+      src="https://kit.fontawesome.com/0dbbe70cac.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Text | gotham UI</title>
   </head>
   <body>
     <nav id="nav-bar">
@@ -92,7 +97,11 @@
             >
           </li>
           <li id="sidebar-list" class="sidebar-items">
-            <a href="#" class="remove-text-decoration add-hover">list</a>
+            <a
+              href="/styles/lists/list.html"
+              class="remove-text-decoration add-hover"
+              >list</a
+            >
           </li>
           <li id="sidebar-navigation" class="sidebar-items">
             <a
@@ -109,12 +118,11 @@
             >
           </li>
           <li id="sidebar-text" class="sidebar-items">
-            <a
-              href="/styles/text/text.html"
-              class="remove-text-decoration add-hover"
+            <a href="#" class="remove-text-decoration add-hover"
               >text utilities</a
             >
           </li>
+
           <li id="sidebar-text" class="sidebar-items">
             <a
               href="/styles/modal/modal.html"
@@ -133,102 +141,65 @@
       </aside>
 
       <div class="inner-container">
-        <h2 class="inner-container-title">List</h2>
+        <h2 class="inner-container-title">text utilites</h2>
+
         <p class="inner-container-desc">
-          Gotham UI lists allow you to group a set of related items in lists.
+          gotham UI provides many text utilites
         </p>
-        <h3 class="inner-container-types">Stacked List</h3>
-        <div class="list-container component-container">
-          <ul class="list-type-stacked list">
-            <li class="list-style">item 1 delieverd</li>
-            <li class="list-style">item 2 delieverd</li>
-            <li class="list-style">item 3 delieverd</li>
-            <li class="list-style">item 4 delieverd</li>
-          </ul>
+        <h3 class="inner-container-types">headings</h3>
+        <div class="component-container text-container">
+          <h1>h1 Heading</h1>
+          <h2>h2 Heading</h2>
+          <h3>h3 Heading</h3>
+          <h4>h4 Heading</h4>
+          <h5>h5 Heading</h5>
+          <h6>h6 Heading</h6>
         </div>
 
         <div class="inner-container-code">
           <iframe
-            src="https://www.thiscodeworks.com/embed/620f6f5f14fadf0015661dcf"
+            src="https://www.thiscodeworks.com/embed/624d40401f7c8d0015f85096"
             class="code-snippet"
           ></iframe>
         </div>
-        <h3 class="inner-container-types">unordered list with bullets</h3>
-        <p class="inner-container-desc">
-          These lists can be used when we don't want to list something in a
-          specific order
-        </p>
-        <div class="list-container component-container">
-          <ul class="list-type-circle list">
-            <li class="list-style">item 1</li>
-            <li class="list-style">item 2</li>
-            <li class="list-style">item 3</li>
-          </ul>
-          <ul class="list-type-disc list">
-            <li class="list-style">item 1</li>
-            <li class="list-style">item 2</li>
-            <li class="list-style">item 3</li>
-          </ul>
-          <ul class="list-type-bullet list">
-            <li class="list-style">item 1</li>
-            <li class="list-style">item 2</li>
-            <li class="list-style">item 3</li>
-          </ul>
+        <h3 class="inner-container-types">alignments</h3>
+        <div class="component-container">
+          <p class="text-left">left aligned text</p>
+          <p class="text-center">center aligned text</p>
+          <p class="text-right">right aligned text</p>
         </div>
 
         <div class="inner-container-code">
           <iframe
-            src="https://www.thiscodeworks.com/embed/620dcf2f1285b600155ec1f0"
+            src="https://www.thiscodeworks.com/embed/624d40b51f7c8d0015f85097"
             class="code-snippet"
           ></iframe>
         </div>
-
-        <h3 class="inner-container-types">ordered list with bullets</h3>
-        <p class="inner-container-desc">
-          These lists can be used when we want to list something in a specific
-          order
-        </p>
-        <div class="list-container component-container">
-          <ul class="list-type-number list">
-            <li class="list-style">item 1</li>
-            <li class="list-style">item 2</li>
-            <li class="list-style">item 3</li>
-          </ul>
-          <ul class="list-type-alphabet list">
-            <li class="list-style">item 1</li>
-            <li class="list-style">item 2</li>
-            <li class="list-style">item 3</li>
-          </ul>
-          <ul class="list-type-roman list">
-            <li class="list-style">item 1</li>
-            <li class="list-style">item 2</li>
-            <li class="list-style">item 3</li>
-          </ul>
+        <h3 class="inner-container-types">different size texts</h3>
+        <div class="component-container text-container">
+          <p class="text-xl">extra large text</p>
+          <p class="text-l">large text</p>
+          <p class="text-m">medium text</p>
+          <p class="text-sm">small text</p>
+          <p class="text-x-sm">extra small text</p>
         </div>
 
         <div class="inner-container-code">
           <iframe
-            src="https://www.thiscodeworks.com/embed/620dcf611285b600155ec1f1"
+            src="https://www.thiscodeworks.com/embed/624d40f61f7c8d0015f85098"
             class="code-snippet"
           ></iframe>
         </div>
-        <h3 class="inner-container-types">
-          list with no bullets / simple list
-        </h3>
-        <p class="inner-container-desc">
-          These are the simple list with no bullets
-        </p>
-        <div class="list-container component-container">
-          <ul class="list-type-no-bullets list">
-            <li class="list-style">item 1</li>
-            <li class="list-style">item 2</li>
-            <li class="list-style">item 3</li>
-          </ul>
+        <h3 class="inner-container-types">different text styles</h3>
+        <div class="component-container text-container">
+          <p class="text-underline">text with underline</p>
+          <p class="text-line">text line through</p>
+          <p class="text-gray">gray text</p>
         </div>
 
         <div class="inner-container-code">
           <iframe
-            src="https://www.thiscodeworks.com/embed/620dcf951285b600155ec1f2"
+            src="https://www.thiscodeworks.com/embed/624d413c1f7c8d0015f85099"
             class="code-snippet"
           ></iframe>
         </div>
