@@ -15,7 +15,7 @@ In order to use this, use the below code and put it in your html's head tag
 ## Temp dev branch
 
 ```bash
-   <link rel="stylesheet" href="https://gothamui-temp.netlify.app//style.css" />
+   <link rel="stylesheet" href="https://gothamui-temp.netlify.app/style.css" />
 ```
 
 ## Pages
