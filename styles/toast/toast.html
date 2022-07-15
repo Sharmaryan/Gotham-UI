@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="gotham UI alert component page" />
+    <meta name="description" content="gotham UI rating component page" />
     <meta name="author" content="aryan sharma" />
+    <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/utilities/container.css" />
     <link rel="stylesheet" href="/utilities/navbar.css" />
     <link rel="stylesheet" href="/utilities/sidebar.css" />
-    <link rel="stylesheet" href="/style.css" />
-
-    <title>Alert | gotham UI</title>
+    <link rel="stylesheet" href="toast.css" />
+    <script
+      src="https://kit.fontawesome.com/0dbbe70cac.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Toast | gotham UI</title>
   </head>
   <body>
     <nav id="nav-bar">
@@ -51,7 +55,11 @@
             >
           </li>
           <li id="sidebar-alert" class="sidebar-items">
-            <a href="#" class="remove-text-decoration add-hover">alert</a>
+            <a
+              href="/styles/alert/alert.html"
+              class="remove-text-decoration add-hover"
+              >alert</a
+            >
           </li>
           <li id="sidebar-badge" class="sidebar-items">
             <a
@@ -124,74 +132,45 @@
             >
           </li>
           <li id="sidebar-text" class="sidebar-items">
-            <a
-              href="/styles/toast/toast.html"
-              class="remove-text-decoration add-hover"
-              >toast</a
-            >
+            <a href="#" class="remove-text-decoration add-hover">toast</a>
           </li>
-          <li id="sidebar-text" class="sidebar-items">
-            <a
-              href="/styles/grid/grid.html"
-              class="remove-text-decoration add-hover"
-              >grid</a
-            >
+            <li id="sidebar-text" class="sidebar-items">
+            <a href="/styles/grid/grid.html" class="remove-text-decoration add-hover">grid</a>
           </li>
         </ul>
       </aside>
-      <div class="inner-container">
-        <h2 class="inner-container-title">alerts</h2>
-        <p class="inner-container-desc">
-          Provide contextual feedback messages for typical user actions with the
-          handful of available and flexible alert messages
-        </p>
-        <h3 class="inner-container-types">simple alert</h3>
 
-        <p class="inner-container-desc">these are simple alerts</p>
-        <div class="alert-container component-container">
-          <div class="alert alert-primary">
-            <p>A simple Primary Alert</p>
+      <div class="inner-container">
+        <h2 class="inner-container-title">toast</h2>
+
+        <p class="inner-container-desc">
+          The toast component is like an alert box that is only shown for a
+          couple of seconds when something happens
+        </p>
+
+        <div class="component-container toast-container">
+          <div class="toast" id="toast">
+            <p class="toast-text">message failed, try after 5 seconds</p>
+            <p class="toast-close" id="close-toast">x</p>
           </div>
-          <div class="alert alert-secondary">
-            <p>A simple Secondary Alert</p>
-          </div>
-          <div class="alert alert-success">
-            <p>A simple Success Alert</p>
-          </div>
-          <div class="alert alert-danger">
-            <p>A simple Danger Alert</p>
-          </div>
+          <button class="toast-btn" id="toast-show">show toast</button>
         </div>
+        <h3 class="inner-container-types">CSS</h3>
         <div class="inner-container-code">
           <iframe
-            src="https://www.thiscodeworks.com/embed/620b5df831e619001565ab01"
+            src="https://www.thiscodeworks.com/embed/624d550d1f7c8d0015f850a9"
             class="code-snippet"
           ></iframe>
         </div>
-
-        <h3 class="inner-container-types">outline alert</h3>
-        <p class="inner-container-desc">this are alert with outline</p>
-        <div class="alert-container component-container">
-          <div class="alert alert-primary-outline">
-            <p>A simple Primary Alert</p>
-          </div>
-          <div class="alert alert-secondary-outline">
-            <p>A simple Secondary Alert</p>
-          </div>
-          <div class="alert alert-success-outline">
-            <p>A simple Success Alert</p>
-          </div>
-          <div class="alert alert-danger-outline">
-            <p>A simple Danger Alert</p>
-          </div>
-        </div>
+        <h3 class="inner-container-types">Javascript</h3>
         <div class="inner-container-code">
           <iframe
-            src="https://www.thiscodeworks.com/embed/620b5e6231e619001565ab02"
+            src="https://www.thiscodeworks.com/embed/624d553a1f7c8d0015f850ab"
             class="code-snippet"
           ></iframe>
         </div>
       </div>
     </div>
+    <script src="./toast.js"></script>
   </body>
 </html>

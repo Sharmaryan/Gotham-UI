@@ -12,7 +12,11 @@ In order to use this, use the below code and put it in your html's head tag
 ```bash
    <link rel="stylesheet" href="https://gothamui.netlify.app/style.css" />
 ```
+## Temp dev branch
 
+```bash
+   <link rel="stylesheet" href="https://gothamui-temp.netlify.app/style.css" />
+```
 
 ## Pages
 
@@ -28,6 +32,10 @@ In order to use this, use the below code and put it in your html's head tag
 - [List](https://gothamui.netlify.app/styles/lists/list.html)
 - [Navigation](https://gothamui.netlify.app/styles/navigation/nav)
 - [Rating](https://gothamui.netlify.app/styles/rating/rating.html)
+- [Text Utilities](https://gothamui-temp.netlify.app/styles/text/text.html)
+- [Modal](https://gothamui-temp.netlify.app/styles/modal/modal.html)
+- [Toast](https://gothamui-temp.netlify.app/styles/toast/toast.html)
+- [Grid](https://gothamui-temp.netlify.app/styles/grid/grid.html)
 
 
 ## Desktop Version

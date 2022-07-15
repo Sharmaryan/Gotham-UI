@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="gotham UI input component page" />
+    <meta name="description" content="gotham UI rating component page" />
     <meta name="author" content="aryan sharma" />
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/utilities/container.css" />
     <link rel="stylesheet" href="/utilities/navbar.css" />
     <link rel="stylesheet" href="/utilities/sidebar.css" />
-    <title>Inputs | gotham UI</title>
+    <link rel="stylesheet" href="text.css" />
+    <script
+      src="https://kit.fontawesome.com/0dbbe70cac.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Text | gotham UI</title>
   </head>
   <body>
     <nav id="nav-bar">
@@ -85,7 +90,11 @@
             >
           </li>
           <li id="sidebar-input" class="sidebar-items">
-            <a href="#" class="remove-text-decoration add-hover">input</a>
+            <a
+              href="/styles/input/input.html"
+              class="remove-text-decoration add-hover"
+              >input</a
+            >
           </li>
           <li id="sidebar-list" class="sidebar-items">
             <a
@@ -109,12 +118,11 @@
             >
           </li>
           <li id="sidebar-text" class="sidebar-items">
-            <a
-              href="/styles/text/text.html"
-              class="remove-text-decoration add-hover"
+            <a href="#" class="remove-text-decoration add-hover"
               >text utilities</a
             >
           </li>
+
           <li id="sidebar-text" class="sidebar-items">
             <a
               href="/styles/modal/modal.html"
@@ -140,131 +148,65 @@
       </aside>
 
       <div class="inner-container">
-        <h2 class="inner-container-title">Inputs</h2>
+        <h2 class="inner-container-title">text utilites</h2>
+
         <p class="inner-container-desc">
-          inputs are used to enter data, gotham UI provide many types of inputs
+          gotham UI provides many text utilites
         </p>
-        <h3 class="inner-container-types">textbox / simple input</h3>
-        <p class="inner-container-desc">
-          this is the simple type of input which can be seen in multiple
-          websites
-        </p>
-        <div class="input-container component-container">
-          <div class="input-fields">
-            <label class="input-label">Email:</label>
-            <input
-              type="text"
-              class="input-content"
-              placeholder="enter your email"
-            />
-          </div>
-          <div class="input-fields">
-            <label class="input-label">Password:</label>
-            <input
-              type="password"
-              class="input-content"
-              placeholder="enter your password"
-            />
-          </div>
+        <h3 class="inner-container-types">headings</h3>
+        <div class="component-container text-container">
+          <h1>h1 Heading</h1>
+          <h2>h2 Heading</h2>
+          <h3>h3 Heading</h3>
+          <h4>h4 Heading</h4>
+          <h5>h5 Heading</h5>
+          <h6>h6 Heading</h6>
         </div>
 
         <div class="inner-container-code">
           <iframe
-            src="https://www.thiscodeworks.com/embed/620df28e1285b600155ec1fc"
+            src="https://www.thiscodeworks.com/embed/624d40401f7c8d0015f85096"
             class="code-snippet"
           ></iframe>
         </div>
-
-        <h3 class="inner-container-types">input with error and validation</h3>
-        <p class="inner-container-desc">
-          this is the simple type of input with error, shown with the help of
-          color red
-        </p>
-        <div class="input-container component-container">
-          <div class="input-fields">
-            <label class="input-label">Password</label>
-            <input type="text" class="input-content" placeholder="password" />
-          </div>
-          <div class="input-fields">
-            <label class="input-label">Confirm Password</label>
-            <input
-              type="password"
-              class="input-content input-error-color"
-              placeholder="confirm password"
-            />
-          </div>
-          <div class="password-error-msg">
-            password is not matching, try again
-          </div>
+        <h3 class="inner-container-types">alignments</h3>
+        <div class="component-container">
+          <p class="text-left">left aligned text</p>
+          <p class="text-center">center aligned text</p>
+          <p class="text-right">right aligned text</p>
         </div>
 
         <div class="inner-container-code">
           <iframe
-            src="https://www.thiscodeworks.com/embed/620f775514fadf0015661dda"
+            src="https://www.thiscodeworks.com/embed/624d40b51f7c8d0015f85097"
             class="code-snippet"
           ></iframe>
         </div>
-        <h3 class="inner-container-types">radio input</h3>
-        <p class="inner-container-desc">
-          this is radio input use to make selection and it can be used to select
-          only one element
-        </p>
-        <div class="input-container component-container radio-checkbox">
-          <div class="input-radio">
-            <label class="input-radio-label" for="radio-a1">
-              <input
-                type="radio"
-                id="radio-a1"
-                class="input-radio-content"
-                checked
-                name="radio"
-              />
-              checked
-            </label>
-          </div>
-          <div class="input-radio">
-            <label class="input-radio-label" for="radio-a2">
-              <input
-                type="radio"
-                id="radio-a2"
-                class="input-radio-content"
-                name="radio"
-              />
-              Unchecked
-            </label>
-          </div>
+        <h3 class="inner-container-types">different size texts</h3>
+        <div class="component-container text-container">
+          <p class="text-xl">extra large text</p>
+          <p class="text-l">large text</p>
+          <p class="text-m">medium text</p>
+          <p class="text-sm">small text</p>
+          <p class="text-x-sm">extra small text</p>
         </div>
 
         <div class="inner-container-code">
           <iframe
-            src="https://www.thiscodeworks.com/embed/620df2e61285b600155ec1ff"
+            src="https://www.thiscodeworks.com/embed/624d40f61f7c8d0015f85098"
             class="code-snippet"
           ></iframe>
         </div>
-        <h3 class="inner-container-types">checkbox input</h3>
-        <p class="inner-container-desc">
-          this is checkbox input use to make selection and it can be used to
-          select manny elements
-        </p>
-
-        <div class="input-container component-container radio-checkbox">
-          <div class="input-checkbox">
-            <label for="checkbox-a1">
-              <input name="checkbox" id="checkbox-a1" type="checkbox" checked />
-              Checked
-            </label>
-          </div>
-          <div class="input-checkbox">
-            <label for="checkbox-a2">
-              <input name="checkbox" id="checkbox-a2" type="checkbox" />
-              Unchecked
-            </label>
-          </div>
+        <h3 class="inner-container-types">different text styles</h3>
+        <div class="component-container text-container">
+          <p class="text-underline">text with underline</p>
+          <p class="text-line">text line through</p>
+          <p class="text-gray">gray text</p>
         </div>
 
         <div class="inner-container-code">
           <iframe
-            src="https://www.thiscodeworks.com/embed/620df3c31285b600155ec203"
+            src="https://www.thiscodeworks.com/embed/624d413c1f7c8d0015f85099"
             class="code-snippet"
           ></iframe>
         </div>

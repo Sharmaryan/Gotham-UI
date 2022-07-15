@@ -3,6 +3,7 @@
   --primary-color: white;
   --secondary-color: royalblue;
   --black: black;
+  --gray:  gray;
   --light-blue: rgb(9, 238, 238);
   --dark-blue: rgb(220, 220, 235);
   --light-green: rgb(221, 238, 218);
@@ -83,3 +84,5 @@ footer i {
   font-size: 1.4rem;
   padding: 0 1.2rem;
 }
+
+
