@@ -12,11 +12,6 @@ In order to use this, use the below code and put it in your html's head tag
 ```bash
    <link rel="stylesheet" href="https://gothamui.netlify.app/style.css" />
 ```
-## Temp dev branch
-
-```bash
-   <link rel="stylesheet" href="https://gothamui-temp.netlify.app/style.css" />
-```
 
 ## Pages
 
