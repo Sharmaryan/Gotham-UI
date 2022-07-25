@@ -1,11 +1,11 @@
-
 .container {
   display: flex;
   text-transform: capitalize;
 }
 
 .inner-container {
-  flex-grow: 1;
+  margin-left: 20rem;
+  width: 100%;
 }
 
 .inner-container-title {
@@ -16,24 +16,28 @@
 .inner-container-desc {
   color: var(--secondary-color);
   padding: 1rem;
+  width: 100%;
 }
 .inner-container-desc{
 border: 3px solid var(--secondary-color);
 margin: 1rem 0;
-width: 40rem; 
 }
 
 .code-snippet{
-   width: 40rem; 
    height: 10rem;
-   border: none;
    margin-top: 1rem;
    padding: 1rem;
    border: 3px solid var(--secondary-color);
+   width: 100%;
 }
 .component-container{
   border: 3px solid var(--secondary-color);
   padding: 1rem;
   margin-bottom: 1rem;
-  width: 40rem;
+}
+
+@media screen and (max-width: 992px) {
+  .inner-container{
+    margin-left: revert;
+  }
 }

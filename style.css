@@ -1,7 +1,7 @@
 @import url("/styles/component.css");
 :root {
   --primary-color: white;
-  --secondary-color: royalblue;
+  --secondary-color: rgb(87, 78, 218);
   --black: black;
   --gray:  gray;
   --light-blue: rgb(9, 238, 238);

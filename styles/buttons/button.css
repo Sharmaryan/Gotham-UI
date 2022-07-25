@@ -1,4 +1,4 @@
-.btn-container{
+.btn-container {
   display: flex;
   justify-content: center;
 }
@@ -10,6 +10,7 @@
   cursor: pointer;
   border: none;
   background-color: var(--primary-color);
+  width: 10rem;
 }
 
 .btn-default {
@@ -62,6 +63,7 @@
 
 .btn-link {
   background-color: var(--btn-link);
+  width: revert;
 }
 
 .btn-text-decoration {
@@ -80,4 +82,12 @@
 .btn-float {
   border: 1px solid var(--secondary-color);
   border-radius: 50%;
+  width: revert;
+}
+
+@media screen and (max-width: 500px) {
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }

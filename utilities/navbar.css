@@ -4,6 +4,9 @@
   height: 15vh;
   color: var(--primary-color);
   background-color: var(--secondary-color);
+  position: sticky;
+  z-index: 1;
+  top: 0;
 }
 #nav-brand{
   margin-left: 1rem;
@@ -12,10 +15,18 @@
 #nav-menu {
   margin-left: auto;
   text-transform: uppercase;
-  display: flex;
-  width: 60vw;
   cursor: pointer;
   justify-content: space-evenly;
+}
+.hamburger-menu{
+  display: none;
+  margin-right: 2rem;
+  font-size: 1.3rem;
+}
+@media screen and (max-width: 992px) {
+  .hamburger-menu{
+    display: block;
+  }
 }
 
 

@@ -5,9 +5,11 @@
 }
 .avatar-round {
   border-radius: 50%;
+  z-index: -9;
 }
 .avatar-square {
   border-radius: 25%;
+    z-index: -9;
 }
 img{
   margin: 1rem ;
@@ -29,4 +31,10 @@ img{
 .img-sm {
   height: 1rem;
   width: 1rem;
+}
+@media screen and (max-width: 500px) {
+ .avatar-container{
+  display: flex;
+  flex-direction: column;
+}
 }
