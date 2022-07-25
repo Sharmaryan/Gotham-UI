@@ -4,6 +4,9 @@
   height: 15vh;
   color: var(--primary-color);
   background-color: var(--secondary-color);
+  position: sticky;
+  z-index: 1;
+  top: 0;
 }
 #nav-brand{
   margin-left: 1rem;

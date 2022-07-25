@@ -1,11 +1,13 @@
 #sidebar {
   padding: 1rem;
-  min-width: 17rem;
   border-radius: 3%;
   background: var(--secondary-color);
-
-  margin: 1rem;
+  width: 17rem;
   text-align: center;
+  position: fixed;
+  overflow-y: scroll;
+  top: 7rem;
+  bottom: 0;
 }
 
 .sidebar-items {
@@ -13,10 +15,17 @@
   margin: 1rem 0;
   list-style: none;
 }
-.remove-text-decoration{
+.remove-text-decoration {
   color: var(--primary-color);
   text-decoration: none;
 }
-.add-hover:hover{
+.add-hover:hover {
   color: var(--black);
+}
+
+
+@media screen and (max-width: 992px) {
+  #sidebar {
+    display: none;
+  }
 }
