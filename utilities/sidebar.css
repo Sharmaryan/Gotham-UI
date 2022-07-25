@@ -23,7 +23,10 @@
 .add-hover:hover {
   color: var(--black);
 }
-
+.nav-git{
+  border: 1px solid gray;
+  background-color: wheat;
+}
 
 @media screen and (max-width: 992px) {
   #sidebar {
