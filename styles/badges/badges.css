@@ -2,6 +2,7 @@
 .badge-container{
   display: flex;
   justify-content: center;
+  border: 10px solid black;
 }
 .badge {
   height: 7rem;
@@ -47,4 +48,12 @@ font-size: 3rem;
 }
 .icon-whatsapp{
   right: 6.7rem;
+  
+}
+
+@media screen and (max-width: 500px) {
+ .badge-container{
+  flex-direction: column;
+   align-items: center;
+}
 }
