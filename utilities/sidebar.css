@@ -8,6 +8,7 @@
   overflow-y: scroll;
   top: 7rem;
   bottom: 0;
+  z-index: 3;
 }
 
 .sidebar-items {
@@ -27,5 +28,7 @@
 @media screen and (max-width: 992px) {
   #sidebar {
     display: none;
+    top: 4rem;
+    width: 100%;
   }
 }

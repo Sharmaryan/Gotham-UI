@@ -20,5 +20,13 @@
   cursor: pointer;
   justify-content: space-evenly;
 }
+.hamburger-menu{
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .hamburger-menu{
+    display: block;
+  }
+}
 
 
